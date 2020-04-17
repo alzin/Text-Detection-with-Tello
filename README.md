@@ -21,8 +21,8 @@ Tello not connected*
 
 ## Prerequisites
 
-please note that the following versions are running on my PC so you may got different version and run properly!
+Please note that the following versions are running on my PC but you may get a different version and run properly!
 
-OpenCV 4.2.0
-NumPy 1.16.1
-Pytesseract 0.3.3
+OpenCV 4.2.0 <br />
+NumPy 1.16.1 <br />
+Pytesseract 0.3.3 <br />
