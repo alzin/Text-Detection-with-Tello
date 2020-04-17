@@ -39,7 +39,10 @@ argparse 1.1<br/>
 
 Once initialized and checked that the drone is connected, start video streaming. Then, OpenCV text detection EAST which is a deep learning model "frozen_east_text_detection.pb" could be used to detect in a fast and accurate way if there is any text detected and draw a green rectangle around each text has been detected so far. Until this, it is possible to know that there is some text is being shown in the video preview but we do not know what a String characters they got. So, I needed to use OCR where I each time cut the region detected by the EAST model and passed to the OCR Tesseract to analyze its content. After that, depending on what is detected. If "TAKEOFF" then Tello takeoff and if "ROTATE360" Tello rotates 360 and if "LAND" Tello lands as well. Of course, you can add your favorite commands or show the drone any string and specify an action for it. For example, you may show your name and order the drone to flip or something!</br>
 
-Please note that the EAST mode is explained as code and logic in detail in the reference below. AS well as the Tesseract OCR and other libraries that have been used.
+Please note that the EAST mode is explained as code and logic in detail in the reference below. AS well as the Tesseract OCR and other libraries that have been used.</br>
+
+Watch this simple demo on my channel on Youtube!
+https://www.youtube.com/watch?v=yt_YD8A1x9c
 
 # References
 
