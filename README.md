@@ -5,7 +5,7 @@ The idea behind this project is to enable the Tello DJI drone to consider action
 # Getting Started
 
 First, you need to download and print out the sample text inside images folder above "TAKEOFF", "ROTATE360" and "LAND".<br/>
-of course, you can use your own text papers but however accuracy of detection may be changed!
+of course, you can use your own text papers but the accuracy of detection may be changed!
 
 Second, turn on Tello WiFi, connect to it and then:
 
@@ -37,7 +37,7 @@ argparse 1.1<br/>
 
 ### Code Logic Explanation
 
-Once initialized and checked that the drone is connected, start video streaming. Then, OpenCV text detection EAST which is a deep learning model "frozen_east_text_detection.pb" could be used to detect in a fast and accurate way if there is any text detected and draw a green rectangle around each text has been detected so far. Until this, it is possible to know that there is some text is being shown in the video preview but we do not what a String characters they got. So, I needed to use OCR where I each time cut the region detected by the EAST model and passed to the OCR Tesseract to analyze its content. After that, depending on what is detected. If "TAKEOFF" then Tello takeoff and if "ROTATE360" Tello rotates 360 and if "LAND" Tello lands as well. Of course, you can add your favorite commands or show the drone any string and specify an action for it. For example, you may show your name and order the drone to flip or something!</br>
+Once initialized and checked that the drone is connected, start video streaming. Then, OpenCV text detection EAST which is a deep learning model "frozen_east_text_detection.pb" could be used to detect in a fast and accurate way if there is any text detected and draw a green rectangle around each text has been detected so far. Until this, it is possible to know that there is some text is being shown in the video preview but we do not know what a String characters they got. So, I needed to use OCR where I each time cut the region detected by the EAST model and passed to the OCR Tesseract to analyze its content. After that, depending on what is detected. If "TAKEOFF" then Tello takeoff and if "ROTATE360" Tello rotates 360 and if "LAND" Tello lands as well. Of course, you can add your favorite commands or show the drone any string and specify an action for it. For example, you may show your name and order the drone to flip or something!</br>
 
 Please note that the EAST mode is explained as code and logic in detail in the reference below. AS well as the Tesseract OCR and other libraries that have been used.
 
