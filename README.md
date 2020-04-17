@@ -5,7 +5,7 @@ The idea behind this project is to enable the Tello DJI drone to consider action
 # Getting Started
 
 First, you need to download and print out the sample text inside images folder above "TAKEOFF", "ROTATE360" and "LAND".<br/>
-of course, you can use your own text pappers but however accuracy of detection may be changed!
+of course, you can use your own text papers but however accuracy of detection may be changed!
 
 Second, turn on Tello WiFi, connect to it and then:
 
@@ -45,7 +45,7 @@ Please note that the EAST mode is explained as code and logic in detail in the r
 
 DJI Tello drone python interface using the official Tello SDK. https://github.com/damiafuentes/DJITelloPy <br/>
 
-Tello face detection and traking. https://github.com/Jabrils/TelloTV <br/>
+Tello faces detection and tracking. https://github.com/Jabrils/TelloTV <br/>
 
 Tesseract OCR with Python https://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/
 
