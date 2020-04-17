@@ -13,11 +13,12 @@ python TextDetection_Tello.py -east frozen_east_text_detection.pb
 ```
 
 if Tello WiFi is not available then you may get the following error:
-
-*Send command: command <br />
+```
+Send command: command <br />
 Timeout exceed on command command <br />
 Command command was unsuccessful. Message: False <br />
-Tello not connected*
+Tello not connected
+```
 
 ## Prerequisites
 
