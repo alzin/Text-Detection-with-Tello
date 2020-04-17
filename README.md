@@ -18,3 +18,11 @@ if Tello WiFi is not available then you may get the following error:
 Timeout exceed on command command <br />
 Command command was unsuccessful. Message: False <br />
 Tello not connected*
+
+## Prerequisites
+
+please note that the following versions are running on my PC so you may got different version and run properly!
+
+OpenCV 4.2.0
+NumPy 1.16.1
+Pytesseract 0.3.3
