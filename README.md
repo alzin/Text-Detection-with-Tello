@@ -35,6 +35,16 @@ pytesseract 0.3.3<br/>
 imutils 0.5.3<br/>
 argparse 1.1<br/>
 
+##Installing
+
+```
+pip install imutils
+pip install opencv-python
+pip install pytesseract
+pip install argparse
+pip install numpy
+```
+
 ### Code Logic Explanation
 
 Once initialized and checked that the drone is connected, start video streaming. Then, OpenCV text detection EAST which is a deep learning model "frozen_east_text_detection.pb" could be used to detect in a fast and accurate way if there is any text detected and draw a green rectangle around each text has been detected so far. Until this, it is possible to know that there is some text is being shown in the video preview but we do not know what a String characters they got. So, I needed to use OCR where I crop  the region detected by the EAST model and pass it to the OCR Tesseract to analyze its content. After that, depending on what is detected. If "TAKEOFF" then Tello takeoff and if "ROTATE360" Tello rotates 360 and if "LAND" Tello lands as well. Of course, you can add your favorite commands or show the drone any string and specify an action for it. For example, you may show your name and order the drone to flip or something like that!
