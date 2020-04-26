@@ -35,7 +35,7 @@ pytesseract 0.3.3<br/>
 imutils 0.5.3<br/>
 argparse 1.1<br/>
 
-##Installing
+### Installing
 
 ```
 pip install imutils
