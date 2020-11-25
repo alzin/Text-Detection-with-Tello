@@ -51,9 +51,6 @@ Once initialized and checked that the drone is connected, start video streaming.
 
 Please note that the EAST mode is explained as code and logic in details in the reference below. AS well as the Tesseract OCR and other libraries that have been used.</br>
 
-Watch this simple demo on my channel on Youtube!
-https://www.youtube.com/watch?v=yt_YD8A1x9c
-
 # References
 
 DJI Tello drone python interface using the official Tello SDK. https://github.com/damiafuentes/DJITelloPy <br/>
